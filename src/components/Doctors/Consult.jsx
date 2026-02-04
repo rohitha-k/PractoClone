@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Consult = () => {
   /* ---------------- DOCTOR COUNT ---------------- */
@@ -275,7 +276,7 @@ const Consult = () => {
             <li>✔ 100% Private & confidential</li>
           </ul>
 
-          <button className="cta">Consult now</button>
+          <Link to="/consult/direct" className="cta text-decoration-none">Consult now</Link>
           <br />
           <br />
 

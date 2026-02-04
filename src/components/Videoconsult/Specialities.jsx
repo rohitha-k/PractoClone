@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import gynaecologyIcon from "@/assets/gynaecology_icon.png";
 import sexologyIcon from "@/assets/sexology_icon.png";
 import generalPhysicianIcon from "@/assets/general_physician_icon.png";
@@ -41,9 +42,9 @@ const Specialities = () => {
                 </div>
                 <h6 className="fw-bold mb-2">{item.name}</h6>
                 <p className="text-muted small mb-3">₹{item.price}</p>
-                <a href="#" className="text-info fw-bold text-decoration-none small">
+                <Link to="/consult/direct" className="text-info fw-bold text-decoration-none small">
                   Consult now ›
-                </a>
+                </Link>
               </div>
             </div>
           ))}

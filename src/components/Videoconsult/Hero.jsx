@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import heroImg from "@/assets/video_consult_hero.png";
 import { FaCheckCircle } from "react-icons/fa";
 
@@ -27,9 +28,9 @@ const Hero = () => {
               </span>
             </div>
 
-            <button className="btn btn-info btn-lg px-5 py-3 fw-bold mb-4 text-white shadow-sm" style={{ backgroundColor: "#28a3da", border: "none" }}>
+            <Link to="/consult/direct" className="btn btn-info btn-lg px-5 py-3 fw-bold mb-4 text-white shadow-sm" style={{ backgroundColor: "#28a3da", border: "none" }}>
               Consult Now
-            </button>
+            </Link>
 
             <div className="d-flex flex-wrap gap-4 mt-2">
               <span className="text-muted d-flex align-items-center gap-1">

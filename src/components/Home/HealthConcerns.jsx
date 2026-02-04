@@ -44,7 +44,7 @@ const Specializations = () => {
   const navigate = useNavigate();
 
   const handleConsultClick = (specialty) => {
-    navigate(`/doctors?specialty=${specialty}`);
+    navigate("/consult/direct");
   };
 
   return (
