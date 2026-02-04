@@ -1,0 +1,53 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  background: skyblue;
+}
+
+.hero-left {
+  max-width: 520px;
+}
+
+.hero-left h1 {
+  font-size: 38px;
+  color: #2d2d32;
+  margin-bottom: 15px;
+}
+
+.sub {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.online {
+  color: #2d2d32;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.consult-btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.features {
+  color: #2d2d32;
+  margin-top: 15px;
+}
+
+.features span {
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.hero-right img {
+  width: 420px;
+  border-radius: 10px;
+}
