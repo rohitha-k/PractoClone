@@ -145,11 +145,8 @@ const Navbar = () => {
                 </div>
               ) : (
                 <>
-                  <Link to="/login" className="btn btn-outline-primary me-2">
-                    Login
-                  </Link>
-                  <Link to="/signup" className="btn btn-primary">
-                    Signup
+                  <Link to="/login" className="btn btn-primary">
+                    Login / Signup
                   </Link>
                 </>
               )}

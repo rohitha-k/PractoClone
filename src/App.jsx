@@ -5,6 +5,7 @@ import ArticleDetails from "./components/Home/ArticlesDetails";
 import FindDoctors from "./components/Doctors/FindDoctors";
 import DoctorsPage from "./components/Doctors/DoctorsPage";
 import SurgeriesPage from "./components/Surgeries/SurgeriesPage";
+import VideoConsultPage from "./components/Videoconsult/VideoConsultPage";
 
 
 import Login from "./components/Auth/Login";
@@ -23,7 +24,7 @@ function App() {
         <Route path="article/:id" element={<ArticleDetails />} />
         <Route path="doctors" element={<FindDoctors />} />
         <Route path="search" element={<DoctorsPage />} />
-        <Route path="video-consult" element={<h1>Video Consult Page</h1>} />
+        <Route path="video-consult" element={<VideoConsultPage />} />
 
 
         <Route path="surgeries" element={<SurgeriesPage />} />

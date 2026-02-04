@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import authBg from '../../assets/auth-bg.jpg';
+import authBg from '../../assets/auth-premium-bg.png';
 
 const Signup = () => {
     const navigate = useNavigate();
@@ -96,7 +96,15 @@ const Signup = () => {
                     zIndex: 0
                 }}
             />
-            <div className="card shadow-lg border-0 p-4" style={{ width: "100%", maxWidth: "450px", borderRadius: "15px", backgroundColor: "rgba(255, 255, 255, 0.95)", zIndex: 1 }}>
+            <div className="card shadow-lg border-0 p-4" style={{
+                width: "100%",
+                maxWidth: "450px",
+                borderRadius: "20px",
+                backgroundColor: "rgba(255, 255, 255, 0.8)",
+                backdropFilter: "blur(10px)",
+                border: "1px solid rgba(255, 255, 255, 0.3)",
+                zIndex: 1
+            }}>
                 <h2 className="text-center fw-bold mb-4 text-primary">Join Practo</h2>
                 <form onSubmit={handleSubmit} noValidate>
                     <div className="mb-3">
